@@ -10,25 +10,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width:device-width,initial-scale=1.0" />
     <title>Página Básica</title>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #cabecalho > h1{
+        text-align: center;
+            color: #fff;
+            background-color: #100000 !important;
+            padding: 20px 0;
+            box-shadow: 4px 3px 5px #41416d;
+            border-radius: 5px;
+            font-size: 64px;
+      }
+
+      ul{
+        list-style: none;
+        width: 135%;
+      }
+
+      #cabecalho nav{
+        margin: 15px 0;
+      }
+    
+      #cabecalho  li {
+        display: inline-block;
+        margin: 0  8%;
+      }
+
+     #cabecalho  li img {
+      display: block;
+      width: 50%;
+      min-width: 10%;
+      }
+      
+
+    </style>
+
   </head>
   <!-- segundo filho do html = body -->
   <body>
     <div class="container">
       <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
-      <header class="cabecalho">
-        <h1
-          style="
-            text-align: center;
-            color: #fff;
-            background-color: #100000;
-            padding: 20px 0;
-            box-shadow: 4px 3px 5px #41416d;
-            border-radius: 5px;
-            font-size: 64px;
-          "
-        >
-          Minha Página
-        </h1>
+      <header id="cabecalho">
+        <h1>Minha Página</h1>
         <nav>
           <ul>
             <li>
@@ -36,17 +65,16 @@
                 <img
                   src="./img/help.png"
                   alt="Caixa de texto com uma Interrogação."
-                  width="3%"
                 />
               </a>
             </li>
             <li>
               <a href="./paginas/about.html">
-                <img src="./img/about.png" alt="Letra i em um circulo." width="3%" />
+                <img src="./img/about.png" alt="Letra i em um circulo." />
               </a>
             </li>
             <li>
-              <a href="#contact"> <img src="./img/contact.png" alt="Envelope de carta." width="3%"/> </a>
+              <a href="#contact"> <img src="./img/contact.png" alt="Envelope de carta." /> </a>
             </li>
           </ul>
         </nav>
@@ -56,7 +84,7 @@
 
       <section id="conteudo-principal">
         <div>
-          <h2>HELP</h2>
+          <h1>HELP</h1>
           <p>
             Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             ipsam vero animi corporis modi quos, provident alias. Dicta ea
