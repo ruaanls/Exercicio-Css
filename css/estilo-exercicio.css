@@ -10,3 +10,8 @@ h1, h2
 {
     font-family: serif;
 }
+
+.link a
+{
+    font-weight: bold;
+}
