@@ -9,11 +9,12 @@ html{
     font-size: 62.5%;/* 1rem = 10px */
 
     /*Exemplo de background-image*/
+    /*
     background-image: url('../img/img-01-banner-1280×640.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
 
 }
 
