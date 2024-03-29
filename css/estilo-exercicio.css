@@ -3,7 +3,7 @@
 Que está sob a cor de fundo impedindo a visualização*/
 #cabecalho
 {
-    background-color: rgb(45, 45, 243);
+    background-color: rgb(15, 15, 112);
 }
 
 h1, h2
@@ -36,3 +36,10 @@ p
 {
     color: green;
 }
+
+form button
+{
+    background-color: rgb(15, 15, 112);
+    color: white;
+}
+
