@@ -5,3 +5,8 @@ Que está sob a cor de fundo impedindo a visualização*/
 {
     background-color: rgb(45, 45, 243);
 }
+
+h1, h2
+{
+    font-family: serif;
+}
